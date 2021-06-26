@@ -1,0 +1,167 @@
+/* ------------------ espaçamentos ------------------ */
+.header-esp {
+    margin-top: 24px;
+}
+
+.section2 {
+    margin-top: 52px;
+}
+
+.esp-nav {
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+
+.esp-nav-10 {
+    margin: 0px 10px 0px 10px;
+}
+
+/* ------------------ fim espaçamentos ------------------ */
+
+/* ------------------ header ------------------ */
+@media (max-width: 446px) {
+    .logo {
+        max-width: 60%;
+    }
+}
+
+/* ------ busca ------ */
+.search {
+    position: absolute;
+    bottom: 1px;
+    right: 16px;
+    margin-bottom: 0;
+}
+
+.search-icon, .search-form {
+    height: 30px;
+    padding: 0;
+}
+
+.search-icon {
+    border-width: 0;
+}
+
+.search-form {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4c4c4;
+    padding-left: 10px;
+    width: 15vw;
+}
+
+@media (max-width: 429px) {
+    .search-form {
+        width: 30vw;
+    }
+} 
+
+/* ------ fim busca ------ */
+
+.monitor-over {
+    position: absolute;
+    right: -3vh;
+    top: -6vw;
+    max-width: 38%;
+}
+
+.banner-header {
+    position: relative;
+    display: inline;
+    max-width: 100%;
+}
+
+.banner {
+    position: relative;
+    display: inline;
+    max-width: 100%;
+}
+
+
+/* ------------------ fim header ------------------ */
+
+
+/* ------------------ navbar ------------------ */
+.nav-menu, .nav-menu:hover {
+    background-color: #3d5057;
+    color: #fff;
+}
+
+.nav-selected, .nav-selected:hover {
+    background-color: #667a82;
+    color: #fff;
+}
+
+@media (max-width: 577px) {
+    .menu-desk {
+        display:none;
+    }
+}
+
+@media (min-width: 576px) {
+    .menu-mob {
+        display:none; 
+    }
+}
+
+.dd-stl {
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+}
+
+/* ------------------ fim navbar ------------------ */
+
+/* ------------------ conteudo ------------------ */
+.cont {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.img-wrap-r {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+.img-wrap-l {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding-right: 15px;
+}
+
+/* ------------------ fim conteudo ------------------ */
+
+/* ------------------ footer ------------------ */
+.footer-stl {
+    margin-top: 25px;
+    padding: 17px;
+    text-align:center;
+    color: #6a6565;
+    font-size: 9px;
+    background-color: #ddd;
+}
+/* ------------------ fim footer ------------------ */
+
+/* ------------------ geral ------------------ */
+html {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 989px;
+    padding: 24px;
+}
+
+p, h1, h2, ul, li {
+    color: #354348;
+    font-family: arial;
+}
+h1, h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+p, li {
+    font-size: 12px;
+    list-style: disc; 
+}
+li {
+    margin-left: 15px;
+}
+/* ------------------ fim geral ------------------ */
